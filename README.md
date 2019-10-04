@@ -2,12 +2,13 @@
 
 ![trafficsign](trafficsign.jpg)
 
-This project classifies lothes using Deep Learning and [Tensorflow](https://www.tensorflow.org) 2.0. 
+This project detects traffic signs for your self-driving car using LeNet network and [Tensorflow](https://www.tensorflow.org) 2.0. 
 
 ### Data Reference:
 
 In this case study, you have been provided with images of traffic signs and the goal is to train a Deep Network to classify them
 The dataset contains 43 different classes of images.
+
 Classes are as listed below:
 ( 0, b'Speed limit (20km/h)') ( 1, b'Speed limit (30km/h)')
 ( 2, b'Speed limit (50km/h)') ( 3, b'Speed limit (60km/h)')
@@ -30,6 +31,7 @@ Classes are as listed below:
 (37, b'Go straight or left') (38, b'Keep right') (39, b'Keep left')
 (40, b'Roundabout mandatory') (41, b'End of no passing')
 (42, b'End of no passing by vehicles over 3.5 metric tons')
+
 The network used is called LeNet that was presented by Yann LeCun http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
 Citation J. Stallkamp, M. Schlipsing, J. Salmen, and C. Igel. The German Traffic Sign Recognition Benchmark: A multi-class classification competition. In Proceedings of the IEEE International Joint Conference on Neural Networks, pages 1453–1460. 2011. @inproceedings{Stallkamp-IJCNN-2011, author = {Johannes Stallkamp and Marc Schlipsing and Jan Salmen and Christian Igel}, booktitle = {IEEE International Joint Conference on Neural Networks}, title = {The {G}erman {T}raffic {S}ign {R}ecognition {B}enchmark: A multi-class classification competition}, year = {2011}, pages = {1453--1460} }
 
