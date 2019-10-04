@@ -1,6 +1,6 @@
 # Detect Traffic Signs using TensorFlow 2.0
 
-![Traffic Sign](trafficsignjpg)
+![trafficsign](trafficsign.jpg)
 
 This project classifies lothes using Deep Learning and [Tensorflow](https://www.tensorflow.org) 2.0. 
 
